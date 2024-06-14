@@ -7,10 +7,35 @@ body {
     align-items: center;
 }
 
-.clock{
+.clock { 
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     background: white;
     position: relative;
+    border: 10px solid #ddd;
+}
+
+.s {
+    position: absolute;
+    width: 0.2rem;
+    height: 7rem;
+    background: red;
+
+}
+
+.ms {
+    position: absolute;
+    width: 0.3rem;
+    height: 6rem;
+    background: gray;
+}
+
+.dot {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: gray;
+
 }

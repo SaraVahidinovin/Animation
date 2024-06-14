@@ -13,7 +13,7 @@ body {
     border: 8px solid rgba(0, 0, 0, 0.1);
     border-top-color: #007bff;
     border-radius: 50%;
-    animation: spin 3s;
+    animation: spin 2s infinite;
 }
 
 @keyframes spin {

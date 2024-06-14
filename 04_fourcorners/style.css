@@ -28,4 +28,14 @@ body {
         left: 0;
         background-color: green;
     }
+    25% {
+        top: 0;
+        left: calc(100% - 3rem);
+        background-color: blue;
+    }
+    50% {
+        top: calc(100% - 3rem);
+        left: calc(100% - 3rem);
+        background-color: green;
+    }
 }

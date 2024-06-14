@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+}

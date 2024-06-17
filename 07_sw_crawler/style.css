@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p.episode {
+    text-align: center;
+}
+
+p {
+    width: 40%;
+    text-align: justify;
+}
+

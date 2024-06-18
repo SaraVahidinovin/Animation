@@ -40,5 +40,5 @@ body {
 }
 
 .container:hover {
-    transform: rotateY(375deg) rotateX(10deg) translateY(-20px); /* 360 degrees + initial 15 degrees */
+    transform: rotateY(390deg) rotateX(10deg) translateY(-20px); /* 360 degrees + initial 30 degrees */
 }

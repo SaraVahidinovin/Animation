@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    perspective: 1000px;
+}
+.container{
+    width: 20vw;
+    height: 60vh;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform: rotateY(30deg) ; /* Initial rotation */
+}
+
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-size: 1.5rem;
+}
+
+.front {
+    background-color: yellow;
+}
+
+.back {
+    background-color: red; 
+    transform: rotateY(180deg);
+}
+
+.container:hover {
+    transform: rotateY(375deg) rotateX(10deg) translateY(-20px); /* 360 degrees + initial 15 degrees */
+}

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(188, 21, 121, 0.289), rgba(21, 3, 113, 0.298)), url('jack-b-bOfCH9TnRg4-unsplash.jpg');
+    background: linear-gradient(0deg, rgba(188, 21, 121, 0.289), rgba(21, 3, 113, 0.298)), url('stars.jpg');
     perspective: 100px;
     overflow: hidden;
 }

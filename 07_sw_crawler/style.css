@@ -5,6 +5,12 @@ body {
     perspective: 100px;
     overflow: hidden;
 }
+img {
+    width: 100%;
+    animation: scaleLogo 15s forwards;
+    margin-bottom: 8rem;
+}
+
 
 main {
     display: flex;
@@ -14,8 +20,13 @@ main {
     color: yellow;
     font-size: 4rem;
     font-weight: bold;
-    animation: scroll 50s linear forwards;
+    animation: scroll 80s linear 6s forwards;
+    margin-top: 50%;
+    bottom: 0;
+    position: relative;
+    top: 5rem;
 }
+
 h1, .episode , p {
     text-align: center;
     width: 100%;
@@ -30,12 +41,6 @@ p.episode {
 p {
     width: 100%;
     text-align: justify;
-}
-
-img {
-    width: 100%;
-    animation: scaleLogo 15s forwards;
-    margin-bottom: 8rem;
 }
 
 
